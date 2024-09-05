@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".raschet"
+    android:id="@+id/main"
     tools:ignore="ExtraText">
     <TextView
         android:layout_width="wrap_content"
@@ -24,6 +25,7 @@
         android:background="#83D96E">
 
         <TextView
+            android:id="@+id/sum"
             android:layout_width="10dp"
             android:layout_height="30dp"
             android:layout_marginTop="16dp"
@@ -36,6 +38,7 @@
             android:textStyle="bold"
             android:textSize="20dp" />
         <TextView
+            android:id="@+id/months"
             android:layout_width="10dp"
             android:layout_height="40dp"
             android:layout_marginTop="130dp"
@@ -49,6 +52,7 @@
             android:textSize="16dp" />
 
         <TextView
+            android:id="@+id/payment"
             android:layout_width="10dp"
             android:layout_height="60dp"
             android:layout_marginTop="60dp"
